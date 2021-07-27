@@ -1,0 +1,36 @@
+/* BASIC SETUP */
+
+.contentContainer {
+  composes: contentContainer from '/styles/composable.css';
+  background-color: lightgray;
+  padding:  2rem 0 2rem 0;
+}
+
+.signUp {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  grid-template-rows: 1fr;
+  gap: 0;
+  grid-template-areas: "description button";
+}
+
+.description {
+  grid-area: description;
+  margin:  0 4rem 2rem 0;
+  align-self: center;
+}
+
+.button {
+  padding: 1rem 4rem;
+  border-radius: 0.25rem;
+  background-color: lightblue;
+  color: white;
+  grid-area: button;
+  align-self: center;
+}
+
+@media only screen and (max-width: 720px) {
+  .signUp {
+    padding:  2rem;
+  }
+}

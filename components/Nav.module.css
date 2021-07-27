@@ -1,13 +1,13 @@
 /* BASIC SETUP */
 
-.navWrapper {
+.contentContainer {
+  composes: contentContainer from '/styles/composable.css';
+  padding:  0;
   width: 100%;
-  position: -webkit-sticky; /* Safari */
   position: sticky;
   top: 0;
   background-color: #fff;
   border-bottom: 1px solid #000;
-  padding:  0rem 20rem 0rem 20rem;
 }
 
 /* NAVIGATION */
@@ -148,10 +148,11 @@
     flex-direction: column;
     position: fixed;
     justify-content: start;
-    top: 50px;
-    background-color: red;
+    top: 34px;
+    left: 0;
+    background-color: white;
     width: 100%;
-    height: calc(100vh - 55px);
+    height: calc(100vh - 34px);
     transform: translate(-101%);
     text-align: center;
     overflow: hidden;

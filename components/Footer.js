@@ -2,7 +2,7 @@ import styles from './Footer.module.css'
 
 export default function Footer() {
   return (
-    <>
+    <div className={styles.contentContainer}>
       <footer className={styles.footer}>
         <section>
           <img className={styles.image} src="/icon-logo-with-type.svg" />
@@ -23,7 +23,7 @@ export default function Footer() {
             <span className="button">ABOUT</span>
           </div>
           <p className="overline">Climate change in an issue we should all be doing our part to address. We don't sell products,
-            instead we recommend what is best for you, the homeowner, and suggest the best ways for you to save money on energy
+            instead we recommend what is best for you, the homeowner, and suggest the best ways for you to save money on energy.
           </p>
           <div className={styles.buttonContainer}>
             <div className="subtitle1">Sign Up for our App</div>
@@ -31,6 +31,6 @@ export default function Footer() {
           </div>
         </section>
       </footer>
-    </>
+    </div>
   )
 }

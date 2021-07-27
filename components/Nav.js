@@ -2,9 +2,9 @@ import { useState } from 'react'
 import styles from './Nav.module.css'
 
 export default function Nav() {
-  const [mobileMenuActive, setMobileMenuActive] = useState(false)
+  const [mobileMenuActive, setMobileMenuActive] = useState(true)
   return (
-    <div className={styles.navWrapper}>
+    <div className={styles.contentContainer}>
       <nav className={styles.navbar}>
         <div className={styles.logoContainer}>
           <img src="/icon-logo-with-type.svg" alt="Netlify Logo" />

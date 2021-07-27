@@ -1,0 +1,43 @@
+/* BASIC SETUP */
+
+.step {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  grid-template-rows: 1fr;
+  gap: 0;
+  grid-template-areas: "image details";
+}
+
+.details {
+  grid-area: details;
+  margin:  0 0 2rem 4rem;
+}
+.title {
+  margin: 0 0 2rem 0
+}
+
+.image {
+  grid-area: image;
+  width: 20rem;
+  height: auto;
+  align-self: center;
+  justify-self: start;
+}
+
+@media only screen and (max-width: 720px) {
+  .hero {
+    /* margin:  0;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto;
+    grid-template-areas:
+      "image"
+      "details" */
+  }
+  .details {
+    /* margin: 0; */
+  }
+
+  .image {
+    /* justify-self: center; */
+  }
+}

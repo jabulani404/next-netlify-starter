@@ -1,6 +1,9 @@
+.contentContainer {
+  composes: contentContainer from '/styles/composable.css';
+  padding:  4rem 0;
+}
+
 .footer {
-  width: 100%;
-  padding:  4rem 20rem 4rem 20rem;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: 1fr;
