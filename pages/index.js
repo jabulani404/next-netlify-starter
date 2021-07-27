@@ -2,6 +2,10 @@ import Head from 'next/head'
 import Header from '@components/Header'
 import Footer from '@components/Footer'
 import Nav from '@components/Nav'
+import Hero from '@components/Hero'
+import SignUp from '@components/SignUp'
+import Steps from '@components/Steps'
+import Ready from '@components/Ready'
 
 export default function Home() {
   return (
@@ -11,13 +15,17 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link href="https://necolas.github.io/normalize.css/8.0.1/normalize.css" rel="stylesheet" />
         <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,700;0,800;0,900;1,200&display=swap" rel="stylesheet" />
       </Head>
       <Nav />
 
       <main>
-        <Header title="Welcome to my app!" />
-        <h1>H1 Headline</h1>
+        <Hero />
+        <SignUp />
+        <Steps />
+        <Ready />
+        {/* <h1>H1 Headline</h1>
         <h2>H2 Headline</h2>
         <h3>H3 Headline</h3>
         <h4>H4 Headline</h4>
@@ -29,7 +37,7 @@ export default function Home() {
         <div className="body2">Body 2</div>
         <div className="button">Button</div>
         <div className="caption">caption</div>
-        <div className="overline">overline</div>
+        <div className="overline">overline</div> */}
       </main>
 
       <Footer />
