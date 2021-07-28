@@ -2,7 +2,7 @@ import { useState } from 'react'
 import styles from './Nav.module.css'
 
 export default function Nav() {
-  const [mobileMenuActive, setMobileMenuActive] = useState(true)
+  const [mobileMenuActive, setMobileMenuActive] = useState(false)
   return (
     <div className={styles.contentContainer}>
       <nav className={styles.navbar}>
