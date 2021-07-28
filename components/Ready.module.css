@@ -1,14 +1,7 @@
-/* BASIC SETUP */
-
-.ready {
-  padding:  4rem 0;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
 .contentContainer {
+  composes: contentContainer from '/styles/composable.css';
   background-color: rgb(246, 216, 82);
+  padding:  4rem 0;
 }
 
 .title {
@@ -18,11 +11,13 @@
 
 .description {
   text-align: center;
+  font-size: 1.5rem;
 }
 
 .button {
-  padding: 1rem 4rem;
-  border-radius: 0.25rem;
+  composes: button from '/styles/composable.css';
   background-color: white;
   display: inline-block;
+  color: black;
+  justify-self: center;
 }

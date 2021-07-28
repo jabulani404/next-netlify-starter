@@ -10,6 +10,10 @@
   gap: 4rem;
 }
 
+.footer > section > * {
+  margin-bottom: 2rem;
+}
+
 .image {
   height: 2rem;
   width: auto;
@@ -26,6 +30,10 @@
   align-items: flex-end;
 }
 
+.links>span:hover {
+  cursor: pointer;
+}
+
 .buttonContainer {
   display: flex;
   align-items: center;
@@ -33,10 +41,7 @@
 }
 
 .button {
-  padding: 1rem 4rem;
-  border-radius: 0.25rem;
-  background-color: lightblue;
-  color: white;
+  composes: button from '/styles/composable.css';
   justify-self: flex-end;
   align-self: flex-end;
 }

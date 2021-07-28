@@ -17,17 +17,17 @@ export default function Footer() {
         </section>
         <section>
           <div className={styles.links}>
-            <span className="button">Sign up</span>
-            <span className="button">Learn more</span>
-            <span className="button">FAQ</span>
-            <span className="button">ABOUT</span>
+            <span className="buttonText">Sign up</span>
+            <span className="buttonText">Learn more</span>
+            <span className="buttonText">FAQ</span>
+            <span className="buttonText">ABOUT</span>
           </div>
           <p className="overline">Climate change in an issue we should all be doing our part to address. We don't sell products,
             instead we recommend what is best for you, the homeowner, and suggest the best ways for you to save money on energy.
           </p>
           <div className={styles.buttonContainer}>
             <div className="subtitle1">Sign Up for our App</div>
-            <div className={`button ${styles.button}`}>Sign up</div>
+            <div className={styles.button}>Sign up</div>
           </div>
         </section>
       </footer>

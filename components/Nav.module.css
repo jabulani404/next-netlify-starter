@@ -7,7 +7,7 @@
   position: sticky;
   top: 0;
   background-color: #fff;
-  border-bottom: 1px solid #000;
+  border-bottom: 0.15rem solid #000;
 }
 
 /* NAVIGATION */
@@ -16,7 +16,7 @@
   display: grid;
   grid-template-columns: 1fr 3fr;
   align-items: center;
-  height: 50px;
+  height: 60px;
   overflow: hidden;
 }
   
@@ -37,6 +37,7 @@
   display: grid;
   grid-template-columns: repeat(4,1fr);
   justify-self: end;
+  transition: all 0.3s ease-in-out;
   
 }
 
@@ -102,11 +103,11 @@
     flex-direction: column;
     position: fixed;
     justify-content: flex-start;
-    top: 34px;
+    top: 44px;
     left: 0;
     background-color: white;
     width: 100%;
-    height: calc(100vh - 34px);
+    height: calc(100vh - 44px);
     transform: translate(-101%);
     text-align: center;
     overflow: hidden;
