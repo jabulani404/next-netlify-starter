@@ -1,7 +1,7 @@
 .contentContainer {
   composes: contentContainer from '/styles/composable.css';
   background-color: rgb(246, 216, 82);
-  padding:  4rem 0;
+  padding:  2rem 0;
 }
 
 .title {

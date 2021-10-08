@@ -14,10 +14,7 @@ export default function Hero() {
             <br />
             Inviting, Homely, allowing for a target font family to make better use of the material design aesthetic.
           </p>
-          <div className={styles.buttonContaier}>
-            <div className={styles.button}>start assessment</div>
-          </div>
-          {/* <div className={styles.image} >image</div> */}
+          <div className={styles.button}>start assessment</div>
         </div>
         <img src="/header-illustration.svg" alt="Main image" className={styles.image} />
       </div>
